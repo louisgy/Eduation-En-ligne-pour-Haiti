@@ -11,3 +11,19 @@ Objectif du projet
 5. Offrir une alternative d'accès aux connaissances par rapport aux livres. Ce système vise à offrir une alternative a des livres en papier.
 6. Offrir une éducation hautement compétitive aux jeunes
 
+# Spring Data - Java 8 examples
+
+This project contains samples of Java 8 specific features of Spring Data (JPA).
+
+## Support for JDK 8's `Optional` for repository methods
+
+```java
+interface CustomerRepository extends Repository<Customer, Long> {
+
+  // CRUD method using Optional
+  Optional<Customer> findOne(Long id);
+
+  // Query method using Optional
+  Optional<Customer> findByLastname(String lastname);
+}
+
