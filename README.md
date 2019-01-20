@@ -1,7 +1,7 @@
 # Eduation-En-ligne-pour-Haiti
 System educatif en ligne adapte a Haiti
 
-Objectif du projet
+## Objectif du projet
 
 
 1. Ce projet a pour but de promouvoir l'éducation en Haïti et de la rendre accessible universellement à toute personne sans exception et discrimination
